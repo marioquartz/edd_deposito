@@ -1,11 +1,23 @@
 package cuentas;
 
+/**
+ *
+ * @author marioquartz
+ */
 public class Main {
 
+    /**
+     * metodo que inicia todo
+     * @param args
+     */
     public static void main(String[] args) {
         operativa_cuenta(null);
     }
     
+    /**
+     * contiene todas las operaciones
+     * @param cantidad
+     */
     public static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
